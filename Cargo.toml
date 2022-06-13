@@ -1,0 +1,16 @@
+[package]
+name = "cformat"
+version = "0.0.0"
+edition = "2021"
+authors = ["Daniel Mueller <deso@posteo.net>"]
+license = "GPL-3.0-or-later"
+homepage = "https://github.com/d-e-s-o/cformat"
+repository = "https://github.com/d-e-s-o/cformat.git"
+description = """
+A program to incrementally reformat changed files using clang-format(1).
+"""
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+diff-parse = "0.1"
