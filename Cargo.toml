@@ -6,6 +6,7 @@ authors = ["Daniel Mueller <deso@posteo.net>"]
 license = "GPL-3.0-or-later"
 homepage = "https://github.com/d-e-s-o/cformat"
 repository = "https://github.com/d-e-s-o/cformat.git"
+readme = "README.md"
 description = """
 A program to incrementally reformat changed files using clang-format(1).
 """
