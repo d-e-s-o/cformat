@@ -12,5 +12,11 @@ A program to incrementally reformat changed files using clang-format(1).
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+incremental = false
+
 [dependencies]
 diff-parse = "0.1"
