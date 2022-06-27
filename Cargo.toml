@@ -1,12 +1,25 @@
 [package]
 name = "cformat"
-version = "0.0.0"
+version = "0.1.0"
 edition = "2021"
 authors = ["Daniel Mueller <deso@posteo.net>"]
 license = "GPL-3.0-or-later"
 homepage = "https://github.com/d-e-s-o/cformat"
 repository = "https://github.com/d-e-s-o/cformat.git"
 readme = "README.md"
+categories = [
+  "command-line-utilities",
+  "development-tools",
+  "parser-implementations",
+  "text-processing",
+]
+keywords = [
+  "cli",
+  "diff",
+  "git",
+  "text",
+  "utility",
+]
 description = """
 A program to incrementally reformat changed files using clang-format(1).
 """
